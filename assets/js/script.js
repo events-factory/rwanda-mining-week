@@ -46,7 +46,7 @@ $(document).ready(function () {
 // Countdown Timer Function
 function initCountdown() {
   // Set the conference date - September 15, 2025
-  const conferenceDate = new Date('Dec 04, 2025 09:00:00').getTime();
+  const conferenceDate = new Date('Dec 02, 2025 09:00:00').getTime();
 
   // Update the countdown every 1 second
   const countdownTimer = setInterval(function () {
