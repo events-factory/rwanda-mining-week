@@ -1497,3 +1497,30 @@ a:hover {
   margin-bottom: 15px;
   font-size: 1.3rem;
 }
+
+/* Exhibitor Logo Styles */
+.exhibitor-card .exhibitor-logo {
+  background: #fff;
+  padding: 18px 18px 12px 18px;
+  border-radius: 18px;
+  box-shadow: 0 2px 16px 0 rgba(30, 34, 90, 0.08);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 120px;
+  max-height: 120px;
+  margin-bottom: 18px;
+  transition: box-shadow 0.2s, transform 0.2s;
+}
+
+.exhibitor-card .exhibitor-logo img {
+  max-width: 100%;
+  max-height: 80px;
+  object-fit: contain;
+  filter: drop-shadow(0 2px 6px rgba(30,34,90,0.06));
+}
+
+.exhibitor-card:hover .exhibitor-logo {
+  box-shadow: 0 6px 24px 0 rgba(30, 34, 90, 0.16);
+  transform: translateY(-2px) scale(1.03);
+}
