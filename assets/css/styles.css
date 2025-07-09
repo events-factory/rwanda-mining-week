@@ -767,6 +767,7 @@ a:hover {
   width: 100%;
   object-fit: cover;
   transition: var(--transition);
+  object-position: top;
 }
 
 .speaker-card:hover .speaker-image img {
