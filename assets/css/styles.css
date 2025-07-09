@@ -262,7 +262,7 @@ a:hover {
       rgba(26, 75, 140, 0.9),
       rgba(26, 75, 140, 0.9)
     ),
-    url('https://images.unsplash.com/photo-1578328819058-b69f3a3b0f6b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80');
+    url('/assets/img/mining.jpg');
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
