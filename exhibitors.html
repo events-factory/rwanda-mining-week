@@ -20,12 +20,13 @@
       rel="stylesheet"
     />
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="assets/css/styles.css" />    <style>
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <style>
       /* Exhibition Packages Styles */
       .exhibition-packages {
         background-color: #f8f9fa;
       }
-      
+
       .package-card {
         background: white;
         border-radius: 12px;
@@ -36,22 +37,22 @@
         overflow: hidden;
         border: 1px solid #e9ecef;
       }
-      
+
       .package-card:hover {
         transform: translateY(-8px);
         box-shadow: 0 12px 35px rgba(0, 0, 0, 0.15);
       }
-      
+
       .package-card.featured {
         border: 3px solid #007bff;
         transform: scale(1.05);
         z-index: 2;
       }
-      
+
       .package-card.featured:hover {
         transform: scale(1.05) translateY(-8px);
       }
-      
+
       .package-header {
         background: linear-gradient(135deg, #007bff 0%, #0056b3 100%);
         color: white;
@@ -59,11 +60,11 @@
         text-align: center;
         position: relative;
       }
-      
+
       .package-card.featured .package-header {
         background: linear-gradient(135deg, #28a745 0%, #1e7e34 100%);
       }
-      
+
       .package-header h3 {
         margin: 0 0 12px 0;
         font-size: 1.5rem;
@@ -71,14 +72,14 @@
         text-transform: uppercase;
         letter-spacing: 0.5px;
       }
-      
+
       .package-size {
         font-size: 1rem;
         opacity: 0.9;
         margin-bottom: 15px;
         font-weight: 500;
       }
-      
+
       .package-price {
         font-size: 2.2rem;
         font-weight: 800;
@@ -86,7 +87,7 @@
         text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
         color: #ffffff;
       }
-      
+
       .popular-badge {
         position: absolute;
         top: -12px;
@@ -101,17 +102,17 @@
         letter-spacing: 0.5px;
         box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
       }
-      
+
       .package-features {
         padding: 35px 25px;
       }
-      
+
       .package-features ul {
         list-style: none;
         padding: 0;
         margin: 0;
       }
-      
+
       .package-features li {
         padding: 12px 0;
         border-bottom: 1px solid #f0f0f0;
@@ -122,15 +123,15 @@
         align-items: flex-start;
         line-height: 1.5;
       }
-      
+
       .package-features li:last-child {
         border-bottom: none;
       }
-      
+
       .package-features li:hover {
         color: #007bff;
       }
-      
+
       .package-features i {
         color: #28a745;
         margin-right: 10px;
@@ -139,12 +140,12 @@
         font-size: 0.85rem;
         flex-shrink: 0;
       }
-      
+
       .package-action {
         padding: 0 25px 30px 25px;
         text-align: center;
       }
-      
+
       .package-action .btn {
         width: 100%;
         padding: 15px;
@@ -155,12 +156,12 @@
         letter-spacing: 0.5px;
         transition: all 0.3s ease;
       }
-      
+
       .package-action .btn:hover {
         transform: translateY(-2px);
         box-shadow: 0 5px 15px rgba(0, 123, 255, 0.4);
       }
-      
+
       /* Category Cards Styles */
       .category-card {
         background: white;
@@ -172,39 +173,39 @@
         text-align: center;
         border: 1px solid #e9ecef;
       }
-      
+
       .category-card:hover {
         transform: translateY(-5px);
         box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
       }
-      
+
       .category-icon {
         margin-bottom: 20px;
       }
-      
+
       .category-icon i {
         font-size: 3rem;
         color: #007bff;
         transition: color 0.3s ease;
       }
-      
+
       .category-card:hover .category-icon i {
         color: #0056b3;
       }
-      
+
       .category-card h3 {
         font-size: 1.3rem;
         font-weight: 600;
         margin-bottom: 15px;
         color: #333;
       }
-      
+
       .category-card p {
         color: #666;
         line-height: 1.6;
         margin: 0;
       }
-      
+
       /* Exhibitor Cards Styles */
       .exhibitor-card {
         background: white;
@@ -216,12 +217,12 @@
         text-align: center;
         border: 1px solid #e9ecef;
       }
-      
+
       .exhibitor-card:hover {
         transform: translateY(-5px);
         box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
       }
-      
+
       .exhibitor-logo {
         height: 80px;
         display: flex;
@@ -229,31 +230,31 @@
         justify-content: center;
         margin-bottom: 20px;
       }
-      
+
       .exhibitor-logo img {
         max-height: 100%;
         max-width: 100%;
         object-fit: contain;
       }
-      
+
       .exhibitor-card h3 {
         font-size: 1.1rem;
         font-weight: 600;
         margin-bottom: 8px;
         color: #333;
       }
-      
+
       .exhibitor-card p {
         color: #666;
         font-size: 0.9rem;
         margin: 0;
       }
-      
+
       /* Booking Inquiry Styles */
       .booking-inquiry {
         background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
       }
-      
+
       .inquiry-form-container {
         background: white;
         border-radius: 15px;
@@ -261,14 +262,14 @@
         box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
         border: 1px solid #e9ecef;
       }
-      
+
       .exhibition-booking-form .form-label {
         font-weight: 600;
         color: #333;
         margin-bottom: 10px;
         font-size: 0.95rem;
       }
-      
+
       .exhibition-booking-form .form-control,
       .exhibition-booking-form .form-select {
         padding: 15px 18px;
@@ -277,27 +278,27 @@
         transition: all 0.3s ease;
         font-size: 0.95rem;
       }
-      
+
       .exhibition-booking-form .form-control:focus,
       .exhibition-booking-form .form-select:focus {
         border-color: #007bff;
         box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.15);
         outline: none;
       }
-      
+
       .exhibition-booking-form .form-control.is-invalid,
       .exhibition-booking-form .form-select.is-invalid {
         border-color: #dc3545;
         box-shadow: 0 0 0 0.2rem rgba(220, 53, 69, 0.15);
       }
-      
+
       /* Become Exhibitor Styles */
       .exhibitor-benefits {
         list-style: none;
         padding: 0;
         margin: 0;
       }
-      
+
       .exhibitor-benefits li {
         padding: 8px 0;
         color: #555;
@@ -306,7 +307,7 @@
         align-items: flex-start;
         line-height: 1.6;
       }
-      
+
       .exhibitor-benefits i {
         color: #28a745;
         margin-right: 10px;
@@ -315,7 +316,7 @@
         font-size: 0.85rem;
         flex-shrink: 0;
       }
-      
+
       .cta-buttons .btn {
         border-radius: 30px;
         font-weight: 600;
@@ -324,11 +325,11 @@
         letter-spacing: 0.5px;
         transition: all 0.3s ease;
       }
-      
+
       .cta-buttons .btn:hover {
         transform: translateY(-2px);
       }
-      
+
       /* Floor Plan Styles */
       .floor-plan-container {
         background: white;
@@ -337,18 +338,18 @@
         box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
         border: 1px solid #e9ecef;
       }
-      
+
       .floor-plan-container .btn {
         border-radius: 30px;
         font-weight: 600;
         padding: 12px 30px;
         transition: all 0.3s ease;
       }
-      
+
       .floor-plan-container .btn:hover {
         transform: translateY(-2px);
       }
-      
+
       /* Section Titles */
       .section-title {
         font-size: 2.5rem;
@@ -358,49 +359,49 @@
         color: #333;
         text-transform: capitalize;
       }
-      
+
       /* Responsive Design */
       @media (max-width: 768px) {
         .package-card.featured {
           transform: none;
           margin-bottom: 20px;
         }
-        
+
         .package-card.featured:hover {
           transform: translateY(-5px);
         }
-        
+
         .inquiry-form-container {
           padding: 30px 20px;
         }
-        
+
         .package-header {
           padding: 25px 20px;
         }
-        
+
         .package-features {
           padding: 25px 20px;
         }
-        
+
         .package-action {
           padding: 0 20px 25px 20px;
         }
-        
+
         .section-title {
           font-size: 2rem;
         }
-        
+
         .cta-buttons .btn {
           margin-bottom: 15px;
           display: block;
         }
       }
-      
+
       @media (max-width: 576px) {
         .package-price {
           font-size: 1.8rem;
         }
-        
+
         .popular-badge {
           right: 15px;
           padding: 6px 15px;
@@ -696,12 +697,13 @@
         <div class="row justify-content-center">
           <div class="col-lg-8 text-center mb-5">
             <p class="lead">
-              Discover unique exhibition opportunities to boost your brand's visibility and
-              connect with a tailored audience through our customized packages.
+              Discover unique exhibition opportunities to boost your brand's
+              visibility and connect with a tailored audience through our
+              customized packages.
             </p>
           </div>
         </div>
-        
+
         <div class="row">
           <!-- Package 1 -->
           <div class="col-lg-4 col-md-6 mb-4">
@@ -713,13 +715,13 @@
               </div>
               <div class="package-features">
                 <ul>
-                  <li> Fascia Names</li>
-                  <li> 1 Round Table</li>
-                  <li> 2 Round Chairs</li>
-                  <li> 1 Information Counter</li>
-                  <li> 2 Spotlights</li>
-                  <li> 1 Brochure Stand</li>
-                  <li> Power Socket</li>
+                  <li>Fascia Names</li>
+                  <li>1 Round Table</li>
+                  <li>2 Round Chairs</li>
+                  <li>1 Information Counter</li>
+                  <li>2 Spotlights</li>
+                  <li>1 Brochure Stand</li>
+                  <li>Power Socket</li>
                 </ul>
               </div>
               <div class="package-action">
@@ -727,7 +729,7 @@
               </div>
             </div>
           </div>
-          
+
           <!-- Package 2 -->
           <div class="col-lg-4 col-md-6 mb-4">
             <div class="package-card featured">
@@ -739,13 +741,13 @@
               </div>
               <div class="package-features">
                 <ul>
-                  <li> 2 Fascia Names</li>
-                  <li> 1 Information Counter</li>
-                  <li> 1 Round Table</li>
-                  <li> 2 White Foldable Chairs</li>
-                  <li> 2 Spotlights</li>
-                  <li> 1 Brochure Stand</li>
-                  <li> Power Socket</li>
+                  <li>2 Fascia Names</li>
+                  <li>1 Information Counter</li>
+                  <li>1 Round Table</li>
+                  <li>2 White Foldable Chairs</li>
+                  <li>2 Spotlights</li>
+                  <li>1 Brochure Stand</li>
+                  <li>Power Socket</li>
                 </ul>
               </div>
               <div class="package-action">
@@ -753,7 +755,7 @@
               </div>
             </div>
           </div>
-          
+
           <!-- Package 3 -->
           <div class="col-lg-4 col-md-6 mb-4">
             <div class="package-card">
@@ -764,13 +766,13 @@
               </div>
               <div class="package-features">
                 <ul>
-                  <li> Fascia Names</li>
-                  <li> 2 Information Counters</li>
-                  <li> 2 Round Tables</li>
-                  <li> 4 White Foldable Chairs</li>
-                  <li> 4 Spotlights</li>
-                  <li> 2 Power Sockets</li>
-                  <li> 2 Brochure Stands</li>
+                  <li>Fascia Names</li>
+                  <li>2 Information Counters</li>
+                  <li>2 Round Tables</li>
+                  <li>4 White Foldable Chairs</li>
+                  <li>4 Spotlights</li>
+                  <li>2 Power Sockets</li>
+                  <li>2 Brochure Stands</li>
                 </ul>
               </div>
               <div class="package-action">
@@ -779,12 +781,13 @@
             </div>
           </div>
         </div>
-        
+
         <div class="row mt-5">
           <div class="col-12 text-center">
             <p class="mb-3">
-              <strong>All packages include:</strong> Badge/Ribbon, Waste Basket, Fascia Board, 
-              Carpet, Registration for 2 representatives, and access to all conference sessions.
+              <strong>All packages include:</strong> Badge/Ribbon, Waste Basket,
+              Fascia Board, Carpet, Registration for 2 representatives, and
+              access to all conference sessions.
             </p>
             <p class="text-muted">
               Contact us for custom booth sizes and special requirements.
@@ -801,27 +804,34 @@
           <div class="col-lg-6">
             <h2 class="mb-4">Why Exhibit at Rwanda Mining Week 2025?</h2>
             <p class="mb-4">
-              Join over 80+ exhibitors showcasing their products and services to a targeted audience of 
-              500+ mining industry professionals, investors, and government officials from across Africa and beyond.
+              Join over 80+ exhibitors showcasing their products and services to
+              a targeted audience of 500+ mining industry professionals,
+              investors, and government officials from across Africa and beyond.
             </p>
             <ul class="exhibitor-benefits mb-4">
               <li>
-                <i class="fas fa-check-circle"></i> Premium exhibition space in a high-traffic location
+                <i class="fas fa-check-circle"></i> Premium exhibition space in
+                a high-traffic location
               </li>
               <li>
-                <i class="fas fa-check-circle"></i> Direct access to 500+ qualified industry professionals
+                <i class="fas fa-check-circle"></i> Direct access to 500+
+                qualified industry professionals
               </li>
               <li>
-                <i class="fas fa-check-circle"></i> Networking opportunities with key decision makers
+                <i class="fas fa-check-circle"></i> Networking opportunities
+                with key decision makers
               </li>
               <li>
-                <i class="fas fa-check-circle"></i> Inclusion in the official event program and website
+                <i class="fas fa-check-circle"></i> Inclusion in the official
+                event program and website
               </li>
               <li>
-                <i class="fas fa-check-circle"></i> Media exposure and extensive brand visibility
+                <i class="fas fa-check-circle"></i> Media exposure and extensive
+                brand visibility
               </li>
               <li>
-                <i class="fas fa-check-circle"></i> Lead generation and business development opportunities
+                <i class="fas fa-check-circle"></i> Lead generation and business
+                development opportunities
               </li>
             </ul>
             <div class="cta-buttons">
@@ -853,63 +863,125 @@
               <div class="text-center mb-4">
                 <h2>Book Your Exhibition Stand</h2>
                 <p class="lead">
-                  Ready to showcase your company at Rwanda Mining Week 2025? 
-                  Fill out the form below and we'll get back to you within 24 hours.
+                  Ready to showcase your company at Rwanda Mining Week 2025?
+                  Fill out the form below and we'll get back to you within 24
+                  hours.
                 </p>
               </div>
-              
+
               <form class="exhibition-booking-form">
                 <div class="row">
                   <div class="col-md-6 mb-3">
-                    <label for="companyName" class="form-label">Company Name *</label>
-                    <input type="text" class="form-control" id="companyName" required>
+                    <label for="companyName" class="form-label"
+                      >Company Name *</label
+                    >
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="companyName"
+                      required
+                    />
                   </div>
                   <div class="col-md-6 mb-3">
-                    <label for="contactPerson" class="form-label">Contact Person *</label>
-                    <input type="text" class="form-control" id="contactPerson" required>
+                    <label for="contactPerson" class="form-label"
+                      >Contact Person *</label
+                    >
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="contactPerson"
+                      required
+                    />
                   </div>
                   <div class="col-md-6 mb-3">
-                    <label for="email" class="form-label">Email Address *</label>
-                    <input type="email" class="form-control" id="email" required>
+                    <label for="email" class="form-label"
+                      >Email Address *</label
+                    >
+                    <input
+                      type="email"
+                      class="form-control"
+                      id="email"
+                      required
+                    />
                   </div>
                   <div class="col-md-6 mb-3">
                     <label for="phone" class="form-label">Phone Number *</label>
-                    <input type="tel" class="form-control" id="phone" required>
+                    <input
+                      type="tel"
+                      class="form-control"
+                      id="phone"
+                      required
+                    />
                   </div>
                   <div class="col-md-6 mb-3">
                     <label for="country" class="form-label">Country *</label>
-                    <input type="text" class="form-control" id="country" required>
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="country"
+                      required
+                    />
                   </div>
                   <div class="col-md-6 mb-3">
-                    <label for="packageType" class="form-label">Preferred Package *</label>
+                    <label for="packageType" class="form-label"
+                      >Preferred Package *</label
+                    >
                     <select class="form-select" id="packageType" required>
                       <option value="">Select a package</option>
-                      <option value="standard">Standard Booth - 3x2m (USD $1,500)</option>
-                      <option value="premium">Premium Booth - 6x2m (USD $3,000)</option>
-                      <option value="deluxe">Deluxe Booth - 9x2m (USD $4,500)</option>
-                      <option value="custom">Custom Size (Please specify in message)</option>
+                      <option value="standard">
+                        Standard Booth - 3x2m (USD $1,500)
+                      </option>
+                      <option value="premium">
+                        Premium Booth - 6x2m (USD $3,000)
+                      </option>
+                      <option value="deluxe">
+                        Deluxe Booth - 9x2m (USD $4,500)
+                      </option>
+                      <option value="custom">
+                        Custom Size (Please specify in message)
+                      </option>
                     </select>
                   </div>
                   <div class="col-12 mb-3">
-                    <label for="industry" class="form-label">Industry/Category</label>
+                    <label for="industry" class="form-label"
+                      >Industry/Category</label
+                    >
                     <select class="form-select" id="industry">
                       <option value="">Select your industry</option>
-                      <option value="mining-equipment">Mining Equipment & Technology</option>
-                      <option value="mineral-processing">Mineral Processing</option>
-                      <option value="sustainable-mining">Sustainable Mining</option>
+                      <option value="mining-equipment">
+                        Mining Equipment & Technology
+                      </option>
+                      <option value="mineral-processing">
+                        Mineral Processing
+                      </option>
+                      <option value="sustainable-mining">
+                        Sustainable Mining
+                      </option>
                       <option value="safety-security">Safety & Security</option>
-                      <option value="financial-services">Financial & Investment Services</option>
-                      <option value="consultancy">Consultancy & Support Services</option>
+                      <option value="financial-services">
+                        Financial & Investment Services
+                      </option>
+                      <option value="consultancy">
+                        Consultancy & Support Services
+                      </option>
                       <option value="other">Other</option>
                     </select>
                   </div>
                   <div class="col-12 mb-3">
-                    <label for="message" class="form-label">Additional Requirements/Message</label>
-                    <textarea class="form-control" id="message" rows="4" placeholder="Please specify any special requirements, custom booth size, or additional services needed..."></textarea>
+                    <label for="message" class="form-label"
+                      >Additional Requirements/Message</label
+                    >
+                    <textarea
+                      class="form-control"
+                      id="message"
+                      rows="4"
+                      placeholder="Please specify any special requirements, custom booth size, or additional services needed..."
+                    ></textarea>
                   </div>
                   <div class="col-12 text-center">
                     <button type="submit" class="btn btn-primary btn-lg">
-                      <i class="fas fa-paper-plane me-2"></i>Submit Booking Inquiry
+                      <i class="fas fa-paper-plane me-2"></i>Submit Booking
+                      Inquiry
                     </button>
                   </div>
                 </div>
@@ -996,189 +1068,210 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <!-- Custom JS -->
     <script src="assets/js/script.js"></script>
-    
+
     <script>
       // Smooth scrolling for anchor links
-      document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
         anchor.addEventListener('click', function (e) {
           e.preventDefault();
           const target = document.querySelector(this.getAttribute('href'));
           if (target) {
             target.scrollIntoView({
               behavior: 'smooth',
-              block: 'start'
+              block: 'start',
             });
           }
         });
       });
-      
+
       // Form validation and submission handling
-      document.querySelector('.exhibition-booking-form').addEventListener('submit', function(e) {
-        e.preventDefault();
-        
-        const submitBtn = this.querySelector('button[type="submit"]');
-        const originalText = submitBtn.innerHTML;
-        
-        // Show loading state
-        submitBtn.innerHTML = '<i class="fas fa-spinner fa-spin me-2"></i>Processing...';
-        submitBtn.disabled = true;
-        
-        // Basic form validation
-        const requiredFields = this.querySelectorAll('[required]');
-        let isValid = true;
-        let firstInvalidField = null;
-        
-        requiredFields.forEach(field => {
-          const value = field.value.trim();
-          if (!value) {
-            isValid = false;
-            field.classList.add('is-invalid');
-            if (!firstInvalidField) {
-              firstInvalidField = field;
-            }
-          } else {
-            field.classList.remove('is-invalid');
-            
-            // Email validation
-            if (field.type === 'email') {
-              const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-              if (!emailRegex.test(value)) {
-                isValid = false;
-                field.classList.add('is-invalid');
-                if (!firstInvalidField) {
-                  firstInvalidField = field;
+      document
+        .querySelector('.exhibition-booking-form')
+        .addEventListener('submit', function (e) {
+          e.preventDefault();
+
+          const submitBtn = this.querySelector('button[type="submit"]');
+          const originalText = submitBtn.innerHTML;
+
+          // Show loading state
+          submitBtn.innerHTML =
+            '<i class="fas fa-spinner fa-spin me-2"></i>Processing...';
+          submitBtn.disabled = true;
+
+          // Basic form validation
+          const requiredFields = this.querySelectorAll('[required]');
+          let isValid = true;
+          let firstInvalidField = null;
+
+          requiredFields.forEach((field) => {
+            const value = field.value.trim();
+            if (!value) {
+              isValid = false;
+              field.classList.add('is-invalid');
+              if (!firstInvalidField) {
+                firstInvalidField = field;
+              }
+            } else {
+              field.classList.remove('is-invalid');
+
+              // Email validation
+              if (field.type === 'email') {
+                const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+                if (!emailRegex.test(value)) {
+                  isValid = false;
+                  field.classList.add('is-invalid');
+                  if (!firstInvalidField) {
+                    firstInvalidField = field;
+                  }
                 }
               }
             }
-          }
-        });
-        
-        // Simulate form submission delay
-        setTimeout(() => {
-          if (isValid) {
-            // Success state
-            submitBtn.innerHTML = '<i class="fas fa-check me-2"></i>Submitted Successfully!';
-            submitBtn.classList.remove('btn-primary');
-            submitBtn.classList.add('btn-success');
-            
-            // Show success message
-            const successAlert = document.createElement('div');
-            successAlert.className = 'alert alert-success mt-3';
-            successAlert.innerHTML = '<i class="fas fa-check-circle me-2"></i>Thank you for your interest! We will contact you within 24 hours to discuss your exhibition requirements.';
-            this.appendChild(successAlert);
-            
-            // Reset form after 2 seconds
-            setTimeout(() => {
-              this.reset();
-              successAlert.remove();
-              submitBtn.innerHTML = originalText;
-              submitBtn.classList.remove('btn-success');
-              submitBtn.classList.add('btn-primary');
-              submitBtn.disabled = false;
-            }, 3000);
-            
-          } else {
-            // Error state
-            submitBtn.innerHTML = '<i class="fas fa-exclamation-triangle me-2"></i>Please Fix Errors';
-            submitBtn.classList.remove('btn-primary');
-            submitBtn.classList.add('btn-danger');
-            
-            // Show error message
-            const errorAlert = document.createElement('div');
-            errorAlert.className = 'alert alert-danger mt-3';
-            errorAlert.innerHTML = '<i class="fas fa-exclamation-circle me-2"></i>Please fill in all required fields correctly.';
-            this.appendChild(errorAlert);
-            
-            // Scroll to first invalid field
-            if (firstInvalidField) {
-              firstInvalidField.scrollIntoView({ behavior: 'smooth', block: 'center' });
-              firstInvalidField.focus();
-            }
-            
-            // Reset button after 2 seconds
-            setTimeout(() => {
-              errorAlert.remove();
-              submitBtn.innerHTML = originalText;
-              submitBtn.classList.remove('btn-danger');
-              submitBtn.classList.add('btn-primary');
-              submitBtn.disabled = false;
-            }, 2000);
-          }
-        }, 1000);
-      });
-      
-      // Real-time validation feedback
-      document.querySelectorAll('.exhibition-booking-form input, .exhibition-booking-form select').forEach(field => {
-        field.addEventListener('blur', function() {
-          if (this.hasAttribute('required')) {
-            const value = this.value.trim();
-            if (!value) {
-              this.classList.add('is-invalid');
+          });
+
+          // Simulate form submission delay
+          setTimeout(() => {
+            if (isValid) {
+              // Success state
+              submitBtn.innerHTML =
+                '<i class="fas fa-check me-2"></i>Submitted Successfully!';
+              submitBtn.classList.remove('btn-primary');
+              submitBtn.classList.add('btn-success');
+
+              // Show success message
+              const successAlert = document.createElement('div');
+              successAlert.className = 'alert alert-success mt-3';
+              successAlert.innerHTML =
+                '<i class="fas fa-check-circle me-2"></i>Thank you for your interest! We will contact you within 24 hours to discuss your exhibition requirements.';
+              this.appendChild(successAlert);
+
+              // Reset form after 2 seconds
+              setTimeout(() => {
+                this.reset();
+                successAlert.remove();
+                submitBtn.innerHTML = originalText;
+                submitBtn.classList.remove('btn-success');
+                submitBtn.classList.add('btn-primary');
+                submitBtn.disabled = false;
+              }, 3000);
             } else {
-              this.classList.remove('is-invalid');
-              
-              // Email validation
-              if (this.type === 'email') {
-                const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-                if (!emailRegex.test(value)) {
-                  this.classList.add('is-invalid');
+              // Error state
+              submitBtn.innerHTML =
+                '<i class="fas fa-exclamation-triangle me-2"></i>Please Fix Errors';
+              submitBtn.classList.remove('btn-primary');
+              submitBtn.classList.add('btn-danger');
+
+              // Show error message
+              const errorAlert = document.createElement('div');
+              errorAlert.className = 'alert alert-danger mt-3';
+              errorAlert.innerHTML =
+                '<i class="fas fa-exclamation-circle me-2"></i>Please fill in all required fields correctly.';
+              this.appendChild(errorAlert);
+
+              // Scroll to first invalid field
+              if (firstInvalidField) {
+                firstInvalidField.scrollIntoView({
+                  behavior: 'smooth',
+                  block: 'center',
+                });
+                firstInvalidField.focus();
+              }
+
+              // Reset button after 2 seconds
+              setTimeout(() => {
+                errorAlert.remove();
+                submitBtn.innerHTML = originalText;
+                submitBtn.classList.remove('btn-danger');
+                submitBtn.classList.add('btn-primary');
+                submitBtn.disabled = false;
+              }, 2000);
+            }
+          }, 1000);
+        });
+
+      // Real-time validation feedback
+      document
+        .querySelectorAll(
+          '.exhibition-booking-form input, .exhibition-booking-form select'
+        )
+        .forEach((field) => {
+          field.addEventListener('blur', function () {
+            if (this.hasAttribute('required')) {
+              const value = this.value.trim();
+              if (!value) {
+                this.classList.add('is-invalid');
+              } else {
+                this.classList.remove('is-invalid');
+
+                // Email validation
+                if (this.type === 'email') {
+                  const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+                  if (!emailRegex.test(value)) {
+                    this.classList.add('is-invalid');
+                  } else {
+                    this.classList.remove('is-invalid');
+                  }
+                }
+              }
+            }
+          });
+
+          field.addEventListener('input', function () {
+            if (this.classList.contains('is-invalid')) {
+              const value = this.value.trim();
+              if (value) {
+                if (this.type === 'email') {
+                  const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+                  if (emailRegex.test(value)) {
+                    this.classList.remove('is-invalid');
+                  }
                 } else {
                   this.classList.remove('is-invalid');
                 }
               }
             }
-          }
+          });
         });
-        
-        field.addEventListener('input', function() {
-          if (this.classList.contains('is-invalid')) {
-            const value = this.value.trim();
-            if (value) {
-              if (this.type === 'email') {
-                const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-                if (emailRegex.test(value)) {
-                  this.classList.remove('is-invalid');
-                }
-              } else {
-                this.classList.remove('is-invalid');
-              }
-            }
-          }
-        });
-      });
-      
+
       // Package card interactions
-      document.querySelectorAll('.package-card').forEach(card => {
-        card.addEventListener('mouseenter', function() {
-          this.style.transform = this.classList.contains('featured') ? 'scale(1.05) translateY(-8px)' : 'translateY(-8px)';
+      document.querySelectorAll('.package-card').forEach((card) => {
+        card.addEventListener('mouseenter', function () {
+          this.style.transform = this.classList.contains('featured')
+            ? 'scale(1.05) translateY(-8px)'
+            : 'translateY(-8px)';
         });
-        
-        card.addEventListener('mouseleave', function() {
-          this.style.transform = this.classList.contains('featured') ? 'scale(1.05)' : 'none';
+
+        card.addEventListener('mouseleave', function () {
+          this.style.transform = this.classList.contains('featured')
+            ? 'scale(1.05)'
+            : 'none';
         });
       });
-      
+
       // Animate elements on scroll
       function animateOnScroll() {
-        const elements = document.querySelectorAll('.category-card, .exhibitor-card, .package-card');
-        elements.forEach(element => {
+        const elements = document.querySelectorAll(
+          '.category-card, .exhibitor-card, .package-card'
+        );
+        elements.forEach((element) => {
           const elementTop = element.getBoundingClientRect().top;
           const elementVisible = 150;
-          
+
           if (elementTop < window.innerHeight - elementVisible) {
             element.style.opacity = '1';
             element.style.transform = 'translateY(0)';
           }
         });
       }
-      
+
       // Initialize animation styles
-      document.querySelectorAll('.category-card, .exhibitor-card, .package-card').forEach(element => {
-        element.style.opacity = '0';
-        element.style.transform = 'translateY(20px)';
-        element.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
-      });
-      
+      document
+        .querySelectorAll('.category-card, .exhibitor-card, .package-card')
+        .forEach((element) => {
+          element.style.opacity = '0';
+          element.style.transform = 'translateY(20px)';
+          element.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+        });
+
       // Run animation on load and scroll
       window.addEventListener('load', animateOnScroll);
       window.addEventListener('scroll', animateOnScroll);
