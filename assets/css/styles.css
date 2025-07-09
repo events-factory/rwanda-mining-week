@@ -1524,3 +1524,29 @@ a:hover {
   box-shadow: 0 6px 24px 0 rgba(30, 34, 90, 0.16);
   transform: translateY(-2px) scale(1.03);
 }
+
+/* Accommodation Page Styles */
+.accommodation-section .hotel-iframe-container {
+  height: auto;
+  min-height: unset;
+  max-height: unset;
+  margin-bottom: 2rem;
+}
+
+.accommodation-section .hotel-iframe-container iframe {
+  width: 100%;
+  height: 2200px;
+  min-height: 1200px;
+  max-height: none;
+  border: 0;
+  border-radius: 12px;
+  background: #f8f9fa;
+  overflow: visible;
+}
+
+@media (max-width: 768px) {
+  .accommodation-section .hotel-iframe-container iframe {
+    height: 1200px;
+    min-height: 800px;
+  }
+}
